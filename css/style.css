@@ -169,11 +169,26 @@
     .pc-waxing-wrap .sec08 .container {
         padding: 0 30px 43px 31px;
     } 
+    .pc-waxing-wrap .sec09 .container, .pc-waxing-wrap .sec10 .container { padding: 42px 30px 40px 30px; }
+    .pc-waxing-wrap .sec09 ul, .pc-waxing-wrap .sec10 ul {  margin-top: 24px; }
+    .pc-waxing-wrap .sec09 li, .pc-waxing-wrap .sec10 li{ padding: 30px 0 30px; }
+    .pc-waxing-wrap .sec09 li .img-box, .pc-waxing-wrap .sec10 li .img-box { width: 63px; }
+    .pc-waxing-wrap .sec10 li:nth-child(2) .img-box { padding: 0; width: 32px;}
+    .pc-waxing-wrap .sec09 li .txt-box, .pc-waxing-wrap .sec10 li .txt-box { margin-left: 33px;  }
+    .pc-waxing-wrap .sec09 li h4, .pc-waxing-wrap .sec10 li h4 {font-size: 16px; line-height: 1.43;  }
+    .pc-waxing-wrap .sec09 li p, .pc-waxing-wrap .sec10 li p {margin-top: 10px; font-size: 13px; line-height: 1.46; }
+    
+
  }    
 
  @media(max-width: 768px) {
     br.pc { display: none;}
     br.mob, br { display: block;}
+    .pc-waxing-wrap li .ico-img-box { width: 63px;  } 
+    .pc-waxing-wrap .sec09 li .img-box, .pc-waxing-wrap .sec10 li .img-box { width: 53px; }
+    .pc-waxing-wrap .sec10 li:nth-child(2) .img-box { padding: 0; width: 22px;}
+    .pc-waxing-wrap .sec09 li .txt-box, .pc-waxing-wrap .sec10 li .txt-box { width: calc(100% - 89px); }
+
 }
 
 
@@ -354,4 +369,5 @@
     .pc-skincare-wrap .sec06 ul { width: 100%; margin-top: 24px; border: 1px solid #000; padding: 0 30px; }    
     .pc-skincare-wrap .sec05 li,
     .pc-skincare-wrap .sec06 li { width: 100%; padding: 24px 0; } 
- }
+
+ } 

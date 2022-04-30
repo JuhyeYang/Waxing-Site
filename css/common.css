@@ -75,8 +75,6 @@ table { width: 100%; border-collapse: collapse; border-spacing: 0; }
 
 table thead { background: #f8f8fa; } 
 
-table tr { } 
-
 table th { font-size: 18px; font-weight: bold; padding: 12px; text-align: center; } 
 
 table td { padding: 12px; text-align: center; } 
@@ -90,8 +88,6 @@ img { display: block; width: 100%; object-fit: cover; }
 
 span { display: inline-block; } 
 
-/* label { display: block; font-size: 18px; } */
-/* button { cursor: pointer; background: #1A274C; color: #fff; font-size:15px; padding:12px 20px; } */
 button { cursor: pointer; } 
 
 input[type="text"],
@@ -100,7 +96,6 @@ input[type="email"],
 button,
 textarea { border: 1px solid #e0e0e0; appearance: none; -moz-appearance: none; -webkit-appearance: none; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; } 
 
-/* input[type="text"], input[type="password"], input[type="email"], input[type="tel"] { border:0; border-bottom: 1px solid #e3e3e5; background: inherit; padding:12px 30px 12px 0; } */
 input::placeholder { font-weight: 400; color: #767676; } 
 
 textarea { resize: none; padding: 14px; font-size: 16px; } 
